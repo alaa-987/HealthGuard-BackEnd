@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\bin\Debug\net6.0\HealthGurad.Repository.deps.json
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\bin\Debug\net6.0\HealthGurad.Repository.dll
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\bin\Debug\net6.0\HealthGurad.Repository.pdb
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\bin\Debug\net6.0\HealthGuard.Core.dll
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\bin\Debug\net6.0\HealthGuard.Core.pdb
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\obj\Debug\net6.0\HealthGurad.Repository.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\obj\Debug\net6.0\HealthGurad.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\obj\Debug\net6.0\HealthGurad.Repository.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\obj\Debug\net6.0\HealthGurad.Repository.AssemblyInfo.cs
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\obj\Debug\net6.0\HealthGurad.Repository.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\obj\Debug\net6.0\HealthGu.DAA52B4B.Up2Date
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\obj\Debug\net6.0\HealthGurad.Repository.dll
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\obj\Debug\net6.0\refint\HealthGurad.Repository.dll
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\obj\Debug\net6.0\HealthGurad.Repository.pdb
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\obj\Debug\net6.0\ref\HealthGurad.Repository.dll
