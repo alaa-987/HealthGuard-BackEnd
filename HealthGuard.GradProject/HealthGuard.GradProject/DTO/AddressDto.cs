@@ -12,7 +12,6 @@ namespace HealthGuard.GradProject.DTO
         public string Street { get; set; }
         [Required]
         public string City { get; set; }
-        [Required]
-        public string Country { get; set; }
+      
     }
 }

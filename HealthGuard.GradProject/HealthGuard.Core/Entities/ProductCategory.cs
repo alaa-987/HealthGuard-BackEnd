@@ -9,6 +9,7 @@ namespace HealthGuard.Core.Entities
     public class ProductCategory: BaseEntity
     {
         public string Name { get; set; }
-       
+        public string PictureUrl { get; set; }
+
     }
 }

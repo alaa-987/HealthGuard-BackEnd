@@ -15,5 +15,6 @@ namespace HealthGuard.GradProject.DTO
         [Required]
         [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$", ErrorMessage = "Invalid Password")]
         public string Password { get; set; }
+        public string? IsAdmin { get; set; } = "false";
     }
 }

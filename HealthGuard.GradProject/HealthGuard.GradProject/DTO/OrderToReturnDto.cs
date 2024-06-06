@@ -12,5 +12,6 @@ namespace HealthGuard.GradProject.DTO
         public string DeliveryMethod { get; set; }
         public decimal DeliveryMethodCost { get; set; }
         public ICollection<OrderItemDto> Items { get; set; } = new HashSet<OrderItemDto>();
+        public decimal Total { get; set; }
     }
 }

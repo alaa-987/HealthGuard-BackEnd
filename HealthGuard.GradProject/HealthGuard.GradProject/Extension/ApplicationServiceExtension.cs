@@ -1,13 +1,16 @@
 ﻿using HealthGuard.Core;
+using HealthGuard.Core.Entities.Identity;
 using HealthGuard.Core.Repository.contract;
 using HealthGuard.Core.Services.contract;
 using HealthGuard.GradProject.Errors;
 using HealthGuard.GradProject.Helpers;
 using HealthGuard.Service.AuthService;
+using HealthGuard.Service.EmailService;
 using HealthGuard.Service.OrderService;
 using HealthGuard.Service.PaymentService;
 using HealthGurad.Repository;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Mail;
 
 namespace HealthGuard.GradProject.Extension
 {
@@ -34,9 +37,14 @@ namespace HealthGuard.GradProject.Extension
             );
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
-            //services.AddScoped(typeof(IAuthService), typeof(AuthService));
-            //services.AddScoped(typeof(IPaymentService), typeof(PaymentService));
-            //services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
+            services.AddScoped(typeof(IWishListRepository), typeof(WishListRepository));
+            services.AddScoped(typeof(INurseRepository), typeof(NurseRepository));
+            services.AddScoped(typeof(IUserAppRepository), typeof(UserRepository));
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("RequireUserRole", policy => policy.RequireRole("User"));
+            });
+
             return services;
         }
         public static WebApplication UseSwaggarMiddleWare(this WebApplication app)

@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,6 +25,10 @@ namespace HealthGurad.Repository.Data.Configuration
                    .HasForeignKey(p => p.CategoryId);
             builder.Property(p => p.Rate)
                    .HasColumnName("NewRate");
+          //builder.HasOne(p => p.WishList)
+          //       .WithMany(w => w.Products)
+          //       .HasForeignKey(p => p.WishlistId)
+          //       .IsRequired(false);
         }
     }
 }

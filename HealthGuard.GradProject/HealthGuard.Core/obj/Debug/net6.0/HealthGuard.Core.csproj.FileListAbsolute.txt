@@ -10,3 +10,16 @@ C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGuard.Core
 C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\HealthGuard.Core.pdb
 C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\ref\HealthGuard.Core.dll
 C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\HealthGuard.Core.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\bin\Debug\net6.0\HealthGuard.Core.deps.json
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\bin\Debug\net6.0\HealthGuard.Core.dll
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\bin\Debug\net6.0\HealthGuard.Core.pdb
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\HealthGuard.Core.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\HealthGuard.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\HealthGuard.Core.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\HealthGuard.Core.AssemblyInfo.cs
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\HealthGuard.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\HealthGuard.Core.sourcelink.json
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\HealthGuard.Core.dll
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\refint\HealthGuard.Core.dll
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\HealthGuard.Core.pdb
+C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGuard.Core\obj\Debug\net6.0\ref\HealthGuard.Core.dll

@@ -14,6 +14,7 @@ namespace HealthGurad.Repository.Data.Configuration
         public void Configure(EntityTypeBuilder<ProductCategory> builder)
         {
             builder.Property(c => c.Name).IsRequired();
+            builder.Property(c => c.PictureUrl).IsRequired();
         }
     }
 }

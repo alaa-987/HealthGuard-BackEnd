@@ -39,5 +39,9 @@ namespace HealthGuard.Core.Specifications
             Skip = skip;
             Take = take;
         }
+        protected void AddInclude(Expression<Func<T, object>> includeExpression)
+        {
+            Includes.Add(includeExpression);
+        }
     }
 }

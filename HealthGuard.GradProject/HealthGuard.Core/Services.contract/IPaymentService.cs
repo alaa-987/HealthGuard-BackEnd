@@ -10,7 +10,7 @@ namespace HealthGuard.Core.Services.contract
 {
     public interface IPaymentService 
     {
-        Task<CustomerBasket?> CrreateOrUpdatePaymentIntent(string BasketId);
-        Task<Order> UpdatePaymentIntentTosuccedOrFailed(string PaymentIntentId, bool flag);
+        Task<CustomerBasket?> CreateOrUpdatePaymentIntent(string basketId);
+        Task<Order> UpdatePaymentIntentTosuccedOrFailed(string PaymentIntentId, bool isSuccess);
     }
 }

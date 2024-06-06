@@ -62,14 +62,13 @@ namespace HealthGurad.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("DeliveryMethodId")
+                    b.Property<int>("DeliveryMethodId")
                         .HasColumnType("int");
 
                     b.Property<DateTimeOffset>("OrderDate")
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("PaymentIntentId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Status")
@@ -83,7 +82,7 @@ namespace HealthGurad.Repository.Migrations
 
                     b.HasIndex("DeliveryMethodId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("HealthGuard.Core.Entities.Order.OrderItem", b =>
@@ -107,7 +106,7 @@ namespace HealthGurad.Repository.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("OrderItem");
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("HealthGuard.Core.Entities.Product", b =>
@@ -162,6 +161,10 @@ namespace HealthGurad.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("PictureUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("ProductCategories");
@@ -172,18 +175,15 @@ namespace HealthGurad.Repository.Migrations
                     b.HasOne("HealthGuard.Core.Entities.Order.DeliveryMethod", "DeliveryMethod")
                         .WithMany()
                         .HasForeignKey("DeliveryMethodId")
-                        .OnDelete(DeleteBehavior.SetNull);
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.OwnsOne("HealthGuard.Core.Entities.Order.Address", "ShippingAddress", b1 =>
+                    b.OwnsOne("HealthGuard.Core.Entities.Order.ShippingAddress", "ShippingAddress", b1 =>
                         {
                             b1.Property<int>("OrderId")
                                 .HasColumnType("int");
 
                             b1.Property<string>("City")
-                                .IsRequired()
-                                .HasColumnType("nvarchar(max)");
-
-                            b1.Property<string>("Country")
                                 .IsRequired()
                                 .HasColumnType("nvarchar(max)");
 
@@ -201,7 +201,7 @@ namespace HealthGurad.Repository.Migrations
 
                             b1.HasKey("OrderId");
 
-                            b1.ToTable("Order");
+                            b1.ToTable("Orders");
 
                             b1.WithOwner()
                                 .HasForeignKey("OrderId");
@@ -237,7 +237,7 @@ namespace HealthGurad.Repository.Migrations
 
                             b1.HasKey("OrderItemId");
 
-                            b1.ToTable("OrderItem");
+                            b1.ToTable("OrderItems");
 
                             b1.WithOwner()
                                 .HasForeignKey("OrderItemId");

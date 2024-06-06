@@ -7,6 +7,7 @@ using HealthGuard.GradProject.Extension;
 using HealthGuard.GradProject.Helpers;
 using HealthGuard.GradProject.MiddleWare;
 using HealthGuard.Service.AuthService;
+using HealthGuard.Service.EmailService;
 using HealthGuard.Service.OrderService;
 using HealthGuard.Service.PaymentService;
 using HealthGurad.Repository;
@@ -18,6 +19,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using StackExchange.Redis;
+using System.Configuration;
+using System.Net.Mail;
 using System.Text;
 
 namespace HealthGuard.GradProject
@@ -53,7 +56,7 @@ namespace HealthGuard.GradProject
                 return ConnectionMultiplexer.Connect(connection);
             });
             builder.Services.AddApplicationServices();
-            builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AppIDentityDbContext>();
+            builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AppIDentityDbContext>().AddDefaultTokenProviders();
             builder.Services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -76,13 +79,17 @@ namespace HealthGuard.GradProject
             builder.Services.AddScoped(typeof(IPaymentService), typeof(PaymentService));
             builder.Services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
             builder.Services.AddScoped(typeof(IOrderService), typeof(OrderService));
+            builder.Services.Configure<EmailSetting>(builder.Configuration.GetSection("EmailSettings"));
+            builder.Services.AddTransient<IEmailService, EmailService>();
+            builder.Services.AddLogging();
+            // builder.Services.AddTransient<SmtpClient>();
             builder.Services.AddCors(Options =>
             {
                 Options.AddPolicy("MyPolicy", options =>
                 {
                     options.AllowAnyHeader();
                     options.AllowAnyMethod();
-                    options.WithOrigins(builder.Configuration["FrontEndUrl"]);
+                    options.WithOrigins("https://localhost:3000", "https://localhost:3001");
                 });
             });
 
@@ -96,10 +103,11 @@ namespace HealthGuard.GradProject
             try
             {
                 await _dbContext.Database.MigrateAsync();
-                //await StoreContextSeed.SeedAsync(_dbContext);
+                await StoreContextSeed.SeedAsync(_dbContext);
                 await _identityDbContext.Database.MigrateAsync();
                 var _userManager = services.GetRequiredService<UserManager<AppUser>>();
-                await AppIdentityDbContextSeed.SeedUsersAsync(_userManager);
+                var _roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+                await AppIdentityDbContextSeed.SeedUsersAsync(_userManager, _roleManager);
             }
             catch (Exception ex)
             {

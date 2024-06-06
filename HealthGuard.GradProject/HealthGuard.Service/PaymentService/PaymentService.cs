@@ -26,71 +26,78 @@ namespace HealthGuard.Service.PaymentService
             _basketRepository = basketRepository;
             _unitOfWork = unitOfWork;
         }
-        public async Task<CustomerBasket?> CrreateOrUpdatePaymentIntent(string BasketId)
+        public async Task<CustomerBasket?> CreateOrUpdatePaymentIntent(string basketId)
         {
             StripeConfiguration.ApiKey = _configuration["StripeKeys:Secretkey"];
-            var Basket = await _basketRepository.GetBasketAsync(BasketId);
-            if (Basket == null) return null;
-            var ShippingPrice = 0M;
-            if (Basket.DeliveryMethodId.HasValue)
+
+            var basket = await _basketRepository.GetBasketAsync(basketId);
+            if (basket == null)
             {
-                var DeliveryMethod = await _unitOfWork.Repository<DeliveryMethod>().GetAsync(Basket.DeliveryMethodId.Value);
-                ShippingPrice = DeliveryMethod.Cost;
+                return null;
             }
-            if (Basket.Items.Count > 0)
+
+            var shippingPrice = 0m;
+            if (basket.DeliveryMethodId.HasValue)
             {
-                foreach (var item in Basket.Items)
+                var deliveryMethod = await _unitOfWork.Repository<DeliveryMethod>().GetAsync(basket.DeliveryMethodId.Value);
+                shippingPrice = deliveryMethod?.Cost ?? 0m;
+            }
+
+            foreach (var item in basket.Items)
+            {
+                var product = await _unitOfWork.Repository<Core.Entities.Product>().GetAsync(item.Id);
+                if (product != null)
                 {
-                    var product = await _unitOfWork.Repository<Core.Entities.Product>().GetAsync(item.Id);
-                    if (item.Price != product.Price)
-                        item.Price = product.Price;
+                    item.Price = (int)product.Price;
                 }
             }
-            var SubTotal = Basket.Items.Sum(i => i.Quanntity * i.Price);
-            var Service = new PaymentIntentService();
-            PaymentIntent paymentIntent;
-            if (string.IsNullOrEmpty(Basket.PaymentIntentId))
+
+            var service = new PaymentIntentService();
+            PaymentIntent intent;
+
+            if (string.IsNullOrEmpty(basket.PaymentIntentId))
             {
-                var Options = new PaymentIntentCreateOptions()
+                var options = new PaymentIntentCreateOptions
                 {
-                    Amount = (long)SubTotal * 100 + (long)ShippingPrice * 100,
-                    Currency = "egy",
+                    Amount = (long)basket.Items.Sum(i => i.Quanntity * i.Price) + (long)shippingPrice,
+                    Currency = "usd",
                     PaymentMethodTypes = new List<string> { "card" }
                 };
-                paymentIntent = await Service.CreateAsync(Options);
-                Basket.PaymentIntentId = paymentIntent.Id;
-                Basket.ClientSecret = paymentIntent.ClientSecret;
+                intent = await service.CreateAsync(options);
+                basket.PaymentIntentId = intent.Id;
+                basket.ClientSecret = intent.ClientSecret;
             }
             else
             {
-                var Options = new PaymentIntentUpdateOptions()
+                var options = new PaymentIntentUpdateOptions
                 {
-                    Amount = (long)SubTotal * 100 + (long)ShippingPrice * 100,
+                    Amount = (long)basket.Items.Sum(i => i.Quanntity * i.Price) + (long)shippingPrice
                 };
-                paymentIntent = await Service.UpdateAsync(Basket.PaymentIntentId, Options);
-                Basket.PaymentIntentId = paymentIntent.Id;
-                Basket.ClientSecret = paymentIntent.ClientSecret;
-
+                await service.UpdateAsync(basket.PaymentIntentId, options);
             }
-            await _basketRepository.UpdateBasketAsync(Basket);
-            return Basket;
+
+            await _basketRepository.UpdateBasketAsync(basket);
+
+            return basket;
         }
 
-        public async Task<Order> UpdatePaymentIntentTosuccedOrFailed(string PaymentIntentId, bool flag)
+        public async Task<Order> UpdatePaymentIntentTosuccedOrFailed(string PaymentIntentId, bool isSuccess)
         {
-            var Spec = new OrderWithPaymentIntentSpec(PaymentIntentId);
-            var Order = await _unitOfWork.Repository<Order>().GetWithSpecAsync(Spec);
-            if (flag)
+            var spec = new OrderWithPaymentIntentSpec(PaymentIntentId);
+            var order = await _unitOfWork.Repository<Order>().GetWithSpecAsync(spec);
+
+            if (order == null)
             {
-                Order.Status = OrderStatus.PaymentSuccessded;
+                throw new Exception($"Order with PaymentIntentId {PaymentIntentId} not found.");
             }
-            else
-            {
-                Order.Status = OrderStatus.PaymentFailed;
-            }
-            _unitOfWork.Repository<Order>().Update(Order);
+
+            order.Status = isSuccess ? OrderStatus.PaymentSuccessded : OrderStatus.PaymentFailed;
+
+            _unitOfWork.Repository<Order>().Update(order);
             await _unitOfWork.CompleteAsync();
-            return Order;
+
+            return order;
         }
+
     }
 }

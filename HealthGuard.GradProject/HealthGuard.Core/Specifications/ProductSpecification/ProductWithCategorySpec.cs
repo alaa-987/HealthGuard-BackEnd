@@ -37,9 +37,13 @@ namespace HealthGuard.Core.Specifications.ProductSpecification
             {
                 AddOrderBy(p => p.Name);
             }
-           ApplyPagination((productSpec.PageIndex - 1) * productSpec.PageSize, productSpec.PageSize);
+           //ApplyPagination((productSpec.PageIndex - 1) * productSpec.PageSize, productSpec.PageSize);
         }
-        public ProductWithCategorySpec(int id) : base(p => p.Id == id)
+        //public ProductWithCategorySpec(int id) : base(p => p.Id == id)
+        //{
+        //    Includes.Add(p => p.Category);
+        //}
+        public ProductWithCategorySpec(int categoryId) : base(p => p.CategoryId == categoryId)
         {
             Includes.Add(p => p.Category);
         }

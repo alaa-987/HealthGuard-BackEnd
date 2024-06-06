@@ -28,6 +28,9 @@ namespace HealthGuard.Service.AuthService
             {
                  new Claim(ClaimTypes.Name,user.DisplayName),
                  new Claim(ClaimTypes.Email,user.Email),
+                 new Claim("BasketId", $"user_{user.Id}_cart"),
+                 new Claim("PhoneNumber", user.PhoneNumber),
+                 new Claim("IsAdmin", user.IsAdmin)
             };
             var userRole = await userManager.GetRolesAsync(user);
             foreach (var role in userRole)

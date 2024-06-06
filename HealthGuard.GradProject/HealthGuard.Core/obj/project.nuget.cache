@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tmg0M/0hOTX0+LsGBkOSTsZC6nBfQBYan5Ctn0s+ULDqh5GcSTiGcHjwzQpGSmEgOAUsHGnesnM24X88NjIOXg==",
+  "dgSpecHash": "87PT1MJ8T73RhLNuRCvVwsrO8ITeykjCRCPZGfHH5Ls6NPzXd2Y+pz8tLZQYODxWvdi3xjcEkNt5fYzmaO18KA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard.GradProject\\HealthGuard.Core\\HealthGuard.Core.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\HealthGuard.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.29\\microsoft.aspnetcore.cryptography.internal.6.0.29.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.29\\microsoft.aspnetcore.cryptography.keyderivation.6.0.29.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HealthGuard.GradProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6272c38375f856f3f33be3b957d5388969a4949")]
 [assembly: System.Reflection.AssemblyProductAttribute("HealthGuard.GradProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HealthGuard.GradProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

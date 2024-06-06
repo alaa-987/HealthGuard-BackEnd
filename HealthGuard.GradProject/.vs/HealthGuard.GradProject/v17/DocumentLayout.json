@@ -1,0 +1,1382 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\controllers\\nursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\controllers\\nursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\nurserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\nurserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\createnursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\createnursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\nurseupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\nurseupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\identity\\appnurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\identity\\appnurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\passwordupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\passwordupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\nursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\nursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\ordertoreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\ordertoreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\order\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\order\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25189C25-F311-4F6A-8779-40285156F507}|HealthGuard.Service\\HealthGuard.Service.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.service\\orderservice\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25189C25-F311-4F6A-8779-40285156F507}|HealthGuard.Service\\HealthGuard.Service.csproj|solutionrelative:healthguard.service\\orderservice\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\specifications\\orderspecification\\orderswithitemsanddeliveryspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\specifications\\orderspecification\\orderswithitemsanddeliveryspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\allappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\allappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\specificnusredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\specificnusredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\specificuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\specificuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25189C25-F311-4F6A-8779-40285156F507}|HealthGuard.Service\\HealthGuard.Service.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.service\\emailservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25189C25-F311-4F6A-8779-40285156F507}|HealthGuard.Service\\HealthGuard.Service.csproj|solutionrelative:healthguard.service\\emailservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\services.contract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\services.contract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\appointmentnursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\appointmentnursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\productcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\productcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\repository.contract\\inurserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\repository.contract\\inurserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\identity\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\identity\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\specifications\\basespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\specifications\\basespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\specifications\\orderspecification\\orderswithitemsandorderingspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\specifications\\orderspecification\\orderswithitemsandorderingspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\specifications\\orderspecification\\orderspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\specifications\\orderspecification\\orderspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\repository.contract\\iuserapprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\repository.contract\\iuserapprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\extension\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\extension\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\usertoreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\usertoreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\identity\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\identity\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25189C25-F311-4F6A-8779-40285156F507}|HealthGuard.Service\\HealthGuard.Service.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.service\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25189C25-F311-4F6A-8779-40285156F507}|HealthGuard.Service\\HealthGuard.Service.csproj|solutionrelative:healthguard.service\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\data\\identity\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\data\\identity\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\repository.contract\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\repository.contract\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\customerbasketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\customerbasketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\bookinginfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\bookinginfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\identity\\emailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\identity\\emailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25189C25-F311-4F6A-8779-40285156F507}|HealthGuard.Service\\HealthGuard.Service.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.service\\paymentservice\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25189C25-F311-4F6A-8779-40285156F507}|HealthGuard.Service\\HealthGuard.Service.csproj|solutionrelative:healthguard.service\\paymentservice\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\specifications\\orderspecification\\orderwithpaymentintentspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\specifications\\orderspecification\\orderwithpaymentintentspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\identity\\appidentitydbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\identity\\appidentitydbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\data\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\data\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\order\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\order\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\repository.contract\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\repository.contract\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\specifications\\productspecification\\productspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\specifications\\productspecification\\productspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Identity\\Migrations\\20240518170845_IdentityModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HealthGurad.Repository\\Identity\\Migrations\\20240518170845_IdentityModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Identity\\Migrations\\20240518164836_RenameNurseTableRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HealthGurad.Repository\\Identity\\Migrations\\20240518164836_RenameNurseTableRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\data\\configuration\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\data\\configuration\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\customerwishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\customerwishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\wishlistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\wishlistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\customerwishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\customerwishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\repository.contract\\iwishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\repository.contract\\iwishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\services.contract\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\services.contract\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\quantitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\quantitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\dto\\productiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\dto\\productiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\specifications\\productspecification\\productspecparamid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\specifications\\productspecification\\productspecparamid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\specifications\\productspecification\\productwithcategoryspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\specifications\\productspecification\\productwithcategoryspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.core\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A6E59B-1D34-4935-A123-853068E68695}|HealthGuard.Core\\HealthGuard.Core.csproj|solutionrelative:healthguard.core\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\data\\configuration\\productcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\data\\configuration\\productcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\data\\configuration\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\data\\configuration\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthguard.gradproject\\helpers\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6809C1-678C-4BFE-A5DE-B4BC8EBF20EB}|HealthGuard.GradProject\\HealthGuard.GradProject.csproj|solutionrelative:healthguard.gradproject\\helpers\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\migrations\\20240511012914_removewishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\migrations\\20240511012914_removewishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Migrations\\20240511005730_Product\u0026Order\u0026Wish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HealthGurad.Repository\\Migrations\\20240511005730_Product\u0026Order\u0026Wish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\migrations\\20240512113819_addpicurltocategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\migrations\\20240512113819_addpicurltocategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\migrations\\20240521160953_orderedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\migrations\\20240521160953_orderedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|c:\\users\\hp\\source\\repos\\gradprojectapi\\healthguard-backend\\healthguard.gradproject\\healthgurad.repository\\identity\\migrations\\20240527182105_useridenritymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B0D7D-1913-42B0-9BCD-0532B4CCD565}|HealthGurad.Repository\\HealthGurad.Repository.csproj|solutionrelative:healthgurad.repository\\identity\\migrations\\20240527182105_useridenritymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NurseController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\NurseController.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Controllers\\NurseController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\NurseController.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Controllers\\NurseController.cs",
+              "ViewState": "AQIAABsBAAAAAAAAAAAAAC8BAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T17:36:41.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Controllers\\BasketController.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAQwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:24:34.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateNurseDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\CreateNurseDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\CreateNurseDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\CreateNurseDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\CreateNurseDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T21:49:08.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NurseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\NurseRepository.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\NurseRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\NurseRepository.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\NurseRepository.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAgwHMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T17:43:47.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADYAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:37:04.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAAHEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:24:55.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Controllers\\PaymentsController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:58:44.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\UserRepository.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\UserRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T13:32:31.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NurseUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\NurseUpdateDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\NurseUpdateDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\NurseUpdateDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\NurseUpdateDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T22:42:21.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppNurse.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Identity\\AppNurse.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\Identity\\AppNurse.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Identity\\AppNurse.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\Identity\\AppNurse.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:59:32.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\PasswordUpdateDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\PasswordUpdateDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\PasswordUpdateDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\PasswordUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:57:30.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\Identity\\AppUser.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Identity\\AppUser.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\Identity\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:04:38.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\UserUpdateDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\UserUpdateDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\UserUpdateDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\UserUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:56:12.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NurseDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\NurseDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\NurseDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\NurseDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\NurseDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T18:00:32.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\OrderDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\OrderDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\OrderDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:27:46.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderToReturnDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\OrderToReturnDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\OrderToReturnDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\OrderToReturnDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\OrderToReturnDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T16:28:50.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Order\\Order.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\Order\\Order.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Order\\Order.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\Order\\Order.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAswCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T18:20:16.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Service\\OrderService\\OrderService.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Service\\OrderService\\OrderService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Service\\OrderService\\OrderService.cs",
+              "RelativeToolTip": "HealthGuard.Service\\OrderService\\OrderService.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:48:14.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WishListController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\WishListController.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Controllers\\WishListController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\WishListController.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Controllers\\WishListController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACEAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T01:07:45.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Helpers\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Helpers\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Helpers\\MappingProfile.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Helpers\\MappingProfile.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:35:15.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrdersWithItemsAndDeliverySpecification.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\OrderSpecification\\OrdersWithItemsAndDeliverySpecification.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Specifications\\OrderSpecification\\OrdersWithItemsAndDeliverySpecification.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\OrderSpecification\\OrdersWithItemsAndDeliverySpecification.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Specifications\\OrderSpecification\\OrdersWithItemsAndDeliverySpecification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:47:33.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\UnitOfWork.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAgwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:11:26.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\AppointmentDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\AppointmentDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\AppointmentDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T18:00:48.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AllAppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\AllAppointmentDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\AllAppointmentDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\AllAppointmentDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\AllAppointmentDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:20:35.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SpecificNusreDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\SpecificNusreDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\SpecificNusreDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\SpecificNusreDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\SpecificNusreDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:22:00.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SpecificUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\SpecificUserDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\SpecificUserDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\SpecificUserDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\SpecificUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:22:25.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Program.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Program.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Program.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAFMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T18:57:13.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Service\\EmailService\\EmailService.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Service\\EmailService\\EmailService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Service\\EmailService\\EmailService.cs",
+              "RelativeToolTip": "HealthGuard.Service\\EmailService\\EmailService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T09:52:51.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\RegisterDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:37:44.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Services.contract\\IOrderService.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Services.contract\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Services.contract\\IOrderService.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Services.contract\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:53:46.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppointmentNurseDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\AppointmentNurseDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\AppointmentNurseDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\AppointmentNurseDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\AppointmentNurseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T00:57:25.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAAJAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T18:40:10.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Product.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\Product.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T00:15:38.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\ProductCategoryDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\ProductCategoryDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\ProductCategoryDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\ProductCategoryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:33:06.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "INurseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Repository.contract\\INurseRepository.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Repository.contract\\INurseRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Repository.contract\\INurseRepository.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Repository.contract\\INurseRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABEAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T17:40:07.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Identity\\Appointment.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\Identity\\Appointment.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Identity\\Appointment.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\Identity\\Appointment.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:01:31.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BaseSpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\BaseSpecifications.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Specifications\\BaseSpecifications.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\BaseSpecifications.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Specifications\\BaseSpecifications.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T22:07:23.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OrdersWithItemsAndOrderingSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\OrderSpecification\\OrdersWithItemsAndOrderingSpecification.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Specifications\\OrderSpecification\\OrdersWithItemsAndOrderingSpecification.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\OrderSpecification\\OrdersWithItemsAndOrderingSpecification.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Specifications\\OrderSpecification\\OrdersWithItemsAndOrderingSpecification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T22:05:48.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderSpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\OrderSpecification\\OrderSpecifications.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Specifications\\OrderSpecification\\OrderSpecifications.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\OrderSpecification\\OrderSpecifications.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Specifications\\OrderSpecification\\OrderSpecifications.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:15:33.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\ProductCreateDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\ProductCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T15:39:47.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IUserAppRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Repository.contract\\IUserAppRepository.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Repository.contract\\IUserAppRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Repository.contract\\IUserAppRepository.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Repository.contract\\IUserAppRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T13:28:55.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ApplicationServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Extension\\ApplicationServiceExtension.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Extension\\ApplicationServiceExtension.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Extension\\ApplicationServiceExtension.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Extension\\ApplicationServiceExtension.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T01:20:23.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserToReturnDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\UserToReturnDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\UserToReturnDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\UserToReturnDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\UserToReturnDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T13:42:05.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Service\\AuthService\\AuthService.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Service\\AuthService\\AuthService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Service\\AuthService\\AuthService.cs",
+              "RelativeToolTip": "HealthGuard.Service\\AuthService\\AuthService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:51:49.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Identity\\Address.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\Identity\\Address.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Identity\\Address.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\Identity\\Address.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:01:41.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20240527182105_UserIdenrityModule.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Identity\\Migrations\\20240527182105_UserIdenrityModule.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Identity\\Migrations\\20240527182105_UserIdenrityModule.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Identity\\Migrations\\20240527182105_UserIdenrityModule.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Identity\\Migrations\\20240527182105_UserIdenrityModule.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:21:05.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AppIDentityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Data\\Identity\\AppIDentityDbContext.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Data\\Identity\\AppIDentityDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Data\\Identity\\AppIDentityDbContext.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Data\\Identity\\AppIDentityDbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:12:02.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IBasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Repository.contract\\IBasketRepository.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Repository.contract\\IBasketRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Repository.contract\\IBasketRepository.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Repository.contract\\IBasketRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:58:59.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\appsettings.json",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\appsettings.json",
+              "RelativeToolTip": "HealthGuard.GradProject\\appsettings.json",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-11T13:25:28.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CustomerBasketDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\CustomerBasketDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\CustomerBasketDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\CustomerBasketDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\CustomerBasketDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:16:01.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\BasketRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\BasketRepository.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\BasketRepository.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAuwDYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:59:29.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "BasketItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\BasketItemDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\BasketItemDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\BasketItemDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\BasketItemDto.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADgvxIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T12:29:23.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BookingInfoDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\BookingInfoDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\BookingInfoDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\BookingInfoDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\BookingInfoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T22:18:26.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "EmailSetting.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Identity\\EmailSetting.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\Identity\\EmailSetting.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Identity\\EmailSetting.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\Identity\\EmailSetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T10:33:00.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Service\\PaymentService\\PaymentService.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Service\\PaymentService\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Service\\PaymentService\\PaymentService.cs",
+              "RelativeToolTip": "HealthGuard.Service\\PaymentService\\PaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:37:27.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "OrderWithPaymentIntentSpec.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\OrderSpecification\\OrderWithPaymentIntentSpec.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Specifications\\OrderSpecification\\OrderWithPaymentIntentSpec.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\OrderSpecification\\OrderWithPaymentIntentSpec.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Specifications\\OrderSpecification\\OrderWithPaymentIntentSpec.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:51:27.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AppIdentityDbContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Identity\\AppIdentityDbContextSeed.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Identity\\AppIdentityDbContextSeed.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Identity\\AppIdentityDbContextSeed.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Identity\\AppIdentityDbContextSeed.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwC0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:39:18.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AddressDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\AddressDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\AddressDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\AddressDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\AddressDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T18:30:18.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20240521160953_OrderEdit.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Migrations\\20240521160953_OrderEdit.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Migrations\\20240521160953_OrderEdit.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Migrations\\20240521160953_OrderEdit.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Migrations\\20240521160953_OrderEdit.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T16:09:54.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "StoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Data\\StoreContext.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Data\\StoreContext.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Data\\StoreContext.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Data\\StoreContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBJwAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T00:33:17.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ShippingAddress.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Order\\ShippingAddress.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\Order\\ShippingAddress.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\Order\\ShippingAddress.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\Order\\ShippingAddress.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T23:54:18.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Repository.contract\\IEmailService.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Repository.contract\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Repository.contract\\IEmailService.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Repository.contract\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T09:52:02.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ProductSpecParams.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\ProductSpecification\\ProductSpecParams.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Specifications\\ProductSpecification\\ProductSpecParams.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\ProductSpecification\\ProductSpecParams.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Specifications\\ProductSpecification\\ProductSpecParams.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA6wBcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T09:10:11.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20240518170845_IdentityModule.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Identity\\Migrations\\20240518170845_IdentityModule.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Identity\\Migrations\\20240518170845_IdentityModule.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Identity\\Migrations\\20240518170845_IdentityModule.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Identity\\Migrations\\20240518170845_IdentityModule.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T17:08:45.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20240518164836_RenameNurseTableRole.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Identity\\Migrations\\20240518164836_RenameNurseTableRole.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Identity\\Migrations\\20240518164836_RenameNurseTableRole.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Identity\\Migrations\\20240518164836_RenameNurseTableRole.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Identity\\Migrations\\20240518164836_RenameNurseTableRole.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:48:36.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "OrderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Data\\Configuration\\OrderConfiguration.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Data\\Configuration\\OrderConfiguration.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Data\\Configuration\\OrderConfiguration.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Data\\Configuration\\OrderConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T00:49:16.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "CustomerWishList.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\CustomerWishList.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\CustomerWishList.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\CustomerWishList.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\CustomerWishList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:54:42.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "WishlistItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\WishlistItemDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\WishlistItemDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\WishlistItemDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\WishlistItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T01:10:43.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "WishListItem.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\WishListItem.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\WishListItem.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\WishListItem.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\WishListItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:55:02.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CustomerWishlistDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\CustomerWishlistDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\CustomerWishlistDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\CustomerWishlistDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\CustomerWishlistDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T01:10:24.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "WishListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\WishListRepository.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\WishListRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\WishListRepository.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\WishListRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAIBJwEkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T01:01:09.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IWishListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Repository.contract\\IWishListRepository.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Repository.contract\\IWishListRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Repository.contract\\IWishListRepository.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Repository.contract\\IWishListRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:57:48.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Services.contract\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Services.contract\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Services.contract\\IPaymentService.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Services.contract\\IPaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:42:03.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "BasketItem.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\BasketItem.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\BasketItem.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\BasketItem.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\BasketItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T12:38:14.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "QuantityDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\QuantityDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\QuantityDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\QuantityDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\QuantityDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T14:24:29.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ProductIdDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\ProductIdDto.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\DTO\\ProductIdDto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\DTO\\ProductIdDto.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\DTO\\ProductIdDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:36:06.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Entities\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Entities\\ProductCategory.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Entities\\ProductCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:25:38.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ProductSpecParamId.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\ProductSpecification\\ProductSpecParamId.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Specifications\\ProductSpecification\\ProductSpecParamId.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\ProductSpecification\\ProductSpecParamId.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Specifications\\ProductSpecification\\ProductSpecParamId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:52:06.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ProductWithCategorySpec.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\ProductSpecification\\ProductWithCategorySpec.cs",
+              "RelativeDocumentMoniker": "HealthGuard.Core\\Specifications\\ProductSpecification\\ProductWithCategorySpec.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\Specifications\\ProductSpecification\\ProductWithCategorySpec.cs",
+              "RelativeToolTip": "HealthGuard.Core\\Specifications\\ProductSpecification\\ProductWithCategorySpec.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABBwAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T09:10:33.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20240512113819_AddPicUrlToCategory.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Migrations\\20240512113819_AddPicUrlToCategory.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Migrations\\20240512113819_AddPicUrlToCategory.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Migrations\\20240512113819_AddPicUrlToCategory.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Migrations\\20240512113819_AddPicUrlToCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:38:19.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ProductCategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Data\\Configuration\\ProductCategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Data\\Configuration\\ProductCategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Data\\Configuration\\ProductCategoryConfiguration.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Data\\Configuration\\ProductCategoryConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:34:14.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Data\\Configuration\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Data\\Configuration\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Data\\Configuration\\ProductConfiguration.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Data\\Configuration\\ProductConfiguration.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBJwB4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T00:32:09.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Helpers\\Pagination.cs",
+              "RelativeDocumentMoniker": "HealthGuard.GradProject\\Helpers\\Pagination.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.GradProject\\Helpers\\Pagination.cs",
+              "RelativeToolTip": "HealthGuard.GradProject\\Helpers\\Pagination.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T09:17:39.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20240511012914_RemoveWishList.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Migrations\\20240511012914_RemoveWishList.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Migrations\\20240511012914_RemoveWishList.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Migrations\\20240511012914_RemoveWishList.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Migrations\\20240511012914_RemoveWishList.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T01:29:14.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20240511005730_Product\u0026Order\u0026Wish.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Migrations\\20240511005730_Product\u0026Order\u0026Wish.cs",
+              "RelativeDocumentMoniker": "HealthGurad.Repository\\Migrations\\20240511005730_Product\u0026Order\u0026Wish.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGurad.Repository\\Migrations\\20240511005730_Product\u0026Order\u0026Wish.cs",
+              "RelativeToolTip": "HealthGurad.Repository\\Migrations\\20240511005730_Product\u0026Order\u0026Wish.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T00:57:30.568Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

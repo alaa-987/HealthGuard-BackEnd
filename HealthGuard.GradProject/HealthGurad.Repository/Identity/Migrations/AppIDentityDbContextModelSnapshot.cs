@@ -62,6 +62,48 @@ namespace HealthGurad.Repository.Identity.Migrations
                     b.ToTable("Addresses", (string)null);
                 });
 
+            modelBuilder.Entity("HealthGuard.Core.Entities.Identity.Appointment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AppNurseId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("AppUserId");
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("EndTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("PatientName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("StartTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Street")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppNurseId");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Appointments");
+                });
+
             modelBuilder.Entity("HealthGuard.Core.Entities.Identity.AppUser", b =>
                 {
                     b.Property<string>("Id")
@@ -84,6 +126,9 @@ namespace HealthGurad.Repository.Identity.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<string>("IsAdmin")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -264,6 +309,36 @@ namespace HealthGurad.Repository.Identity.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("HealthGuard.Core.Entities.Identity.AppNurse", b =>
+                {
+                    b.HasBaseType("HealthGuard.Core.Entities.Identity.AppUser");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Hospital")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NurseName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PicUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Specialty")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.ToTable("AppNurses", (string)null);
+                });
+
             modelBuilder.Entity("HealthGuard.Core.Entities.Identity.Address", b =>
                 {
                     b.HasOne("HealthGuard.Core.Entities.Identity.AppUser", null)
@@ -271,6 +346,25 @@ namespace HealthGurad.Repository.Identity.Migrations
                         .HasForeignKey("HealthGuard.Core.Entities.Identity.Address", "AppUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("HealthGuard.Core.Entities.Identity.Appointment", b =>
+                {
+                    b.HasOne("HealthGuard.Core.Entities.Identity.AppNurse", "AppNurse")
+                        .WithMany("Appointments")
+                        .HasForeignKey("AppNurseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HealthGuard.Core.Entities.Identity.AppUser", "User")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppNurse");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -324,10 +418,24 @@ namespace HealthGurad.Repository.Identity.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("HealthGuard.Core.Entities.Identity.AppNurse", b =>
+                {
+                    b.HasOne("HealthGuard.Core.Entities.Identity.AppUser", null)
+                        .WithOne()
+                        .HasForeignKey("HealthGuard.Core.Entities.Identity.AppNurse", "Id")
+                        .OnDelete(DeleteBehavior.ClientCascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("HealthGuard.Core.Entities.Identity.AppUser", b =>
                 {
                     b.Navigation("Address")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("HealthGuard.Core.Entities.Identity.AppNurse", b =>
+                {
+                    b.Navigation("Appointments");
                 });
 #pragma warning restore 612, 618
         }

@@ -13,14 +13,14 @@ namespace HealthGuard.Core.Entities.Order
         {
 
         }
-        public Order(string buyeremail, ShippingAddress shippingaddress, DeliveryMethod deliveryMethod, ICollection<OrderItem> items, decimal subtotal, string paymentIntentId)
+        public Order(string buyeremail, ShippingAddress shippingaddress,DeliveryMethod deliveryMethod,  ICollection<OrderItem> items, decimal subtotal/*, string paymentIntentId*/)
         {
             BuyerEmail = buyeremail;
             ShippingAddress = shippingaddress;
-            DeliveryMethod = deliveryMethod;
             Items = items;
             SubTotal = subtotal;
-            PaymentIntentId = paymentIntentId;
+           // PaymentIntentId = paymentIntentId;
+            DeliveryMethod = deliveryMethod;
 
         }
         public string BuyerEmail { get; set; }
@@ -35,6 +35,6 @@ namespace HealthGuard.Core.Entities.Order
         [NotMapped]
         public decimal Total { get; }
         public decimal GetTotal() => SubTotal + DeliveryMethod.Cost;
-        public string PaymentIntentId { get; set; }
+        public string? PaymentIntentId { get; set; }
     }
 }

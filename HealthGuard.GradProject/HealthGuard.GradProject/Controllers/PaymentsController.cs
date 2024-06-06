@@ -27,7 +27,7 @@ namespace HealthGuard.GradProject.Controllers
         [HttpPost("{Basketid}")]
         public async Task<ActionResult<CustomerBasketDto>> CreateorUpdatePaymentIntent(string Basketid)
         {
-            var CustomerBasket = await _paymentService.CrreateOrUpdatePaymentIntent(Basketid);
+            var CustomerBasket = await _paymentService.CreateOrUpdatePaymentIntent(Basketid);
             if (CustomerBasket == null) return BadRequest(new ApiResponse(400, "There is a problem with your basket"));
             var MappedBasket = _mapper.Map<CustomerBasket, CustomerBasketDto>(CustomerBasket);
             return Ok(MappedBasket);

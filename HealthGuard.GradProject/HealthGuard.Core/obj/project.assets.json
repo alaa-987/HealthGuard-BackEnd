@@ -1393,11 +1393,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard.GradProject\\HealthGuard.Core\\HealthGuard.Core.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\HealthGuard.Core.csproj",
       "projectName": "HealthGuard.Core",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard.GradProject\\HealthGuard.Core\\HealthGuard.Core.csproj",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\HealthGuard.Core.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard.GradProject\\HealthGuard.Core\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\GradProjectApi\\HealthGuard-BackEnd\\HealthGuard.GradProject\\HealthGuard.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

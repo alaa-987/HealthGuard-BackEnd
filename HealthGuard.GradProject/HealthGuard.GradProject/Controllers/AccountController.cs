@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using HealthGuard.Core.Entities.Identity;
+using HealthGuard.Core.Repository.contract;
 using HealthGuard.Core.Services.contract;
 using HealthGuard.GradProject.DTO;
 using HealthGuard.GradProject.Errors;
@@ -20,13 +21,15 @@ namespace HealthGuard.GradProject.Controllers
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IAuthService _authService;
         private readonly IMapper _mapper;
+        private readonly IUserAppRepository _userRepository;
 
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> SignInManager, IAuthService authService, IMapper mapper)
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> SignInManager, IAuthService authService, IMapper mapper,IUserAppRepository userRepository)
         {
             _userManager = userManager;
             _signInManager = SignInManager;
             _authService = authService;
             _mapper = mapper;
+            _userRepository = userRepository;
         }
         [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login([FromBody] LoginDto model)
@@ -56,6 +59,7 @@ namespace HealthGuard.GradProject.Controllers
                 Email = model.Email,
                 UserName = model.Email.Split("@")[0],
                 PhoneNumber = model.PhoneNumber,
+                IsAdmin = model.IsAdmin
             };
             var result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded is false) return BadRequest(new ApiResponse(400));
@@ -104,6 +108,113 @@ namespace HealthGuard.GradProject.Controllers
             return Ok(address);
 
         }
+        [HttpGet("allUsers")]
+        public async Task<ActionResult<IReadOnlyCollection<AppUser>>> GetAllUsers()
+        {
+            var users = await _userRepository.GetAllUsersAsync();
 
-    }
+            var filteredUsers = users.Where(u => !(u is AppNurse nurse && string.IsNullOrWhiteSpace(nurse.NurseName)));
+
+            return Ok(filteredUsers);
+        }
+        [HttpGet("normalUsers")]
+        public async Task<ActionResult<IReadOnlyCollection<AppUser>>> GetAllNormalUsers()
+        {
+            var users = await _userRepository.GetAllNormalUsersAsync();
+            return Ok(users);
+        }
+        [HttpDelete("users/{userId}")]
+        public async Task<IActionResult> DeleteUser(string userId)
+        {
+            await _userRepository.DeleteUserAsync(userId);
+            return Ok(new {Message ="User Deleted Successfully"});
+        }
+        [HttpGet("users/{userId}")]
+        public async Task<ActionResult<AppUser>> GetUserById(string userId)
+        {
+            var user = await _userRepository.GetUserByIdAsync(userId);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(user);
+        }
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpPut("updateAccount")]
+        public async Task<ActionResult<UserDto>> UpdateUserAccount([FromBody] UserUpdateDto userUpdateDto)
+        {
+            var email = User.FindFirstValue(ClaimTypes.Email);
+            if (email == null)
+            {
+                return Unauthorized(new ApiResponse(401));
+            }
+
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                return NotFound(new ApiResponse(404, "User not found"));
+            }
+
+            // Update display name and phone number
+            user.DisplayName = userUpdateDto.DisplayName ?? user.DisplayName;
+            user.PhoneNumber = userUpdateDto.PhoneNumber ?? user.PhoneNumber;
+
+            // Reset password if new password is provided
+            if (!string.IsNullOrWhiteSpace(userUpdateDto.NewPassword))
+            {
+                var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+                var resetPasswordResult = await _userManager.ResetPasswordAsync(user, resetToken, userUpdateDto.NewPassword);
+                if (!resetPasswordResult.Succeeded)
+                {
+                    return BadRequest(new ApiResponse(400, "Failed to reset password"));
+                }
+            }
+
+            var result = await _userManager.UpdateAsync(user);
+            if (!result.Succeeded)
+            {
+                return BadRequest(new ApiResponse(400, "Failed to update user account"));
+            }
+
+            return Ok(new UserDto
+            {
+                DisplayName = user.DisplayName,
+                Email = user.Email,
+                Token = await _authService.CreateTokenAsync(user, _userManager)
+            });
+        }
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpPut("changePassword")]
+        public async Task<IActionResult> ChangePassword([FromBody] PasswordUpdateDto changePasswordDto)
+        {
+            var email = User.FindFirstValue(ClaimTypes.Email);
+            if (email == null)
+            {
+                return Unauthorized(new ApiResponse(401));
+            }
+
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                return NotFound(new ApiResponse(404, "User not found"));
+            }
+
+            var removePasswordResult = await _userManager.RemovePasswordAsync(user);
+            if (!removePasswordResult.Succeeded)
+            {
+                return BadRequest(new ApiResponse(400, "Failed to remove old password"));
+            }
+
+            var addPasswordResult = await _userManager.AddPasswordAsync(user, changePasswordDto.NewPassword);
+            if (!addPasswordResult.Succeeded)
+            {
+                return BadRequest(new ApiResponse(400, "Failed to add new password"));
+            }
+
+            return Ok(new { Message = "Password Updated Succesfully" });
+        }
+
+        }
 }

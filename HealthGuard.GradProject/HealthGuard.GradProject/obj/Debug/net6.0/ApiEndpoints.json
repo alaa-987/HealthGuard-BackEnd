@@ -67,6 +67,42 @@
   },
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.AccountController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Account/allUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyCollection\u00601[[HealthGuard.Core.Entities.Identity.AppUser, HealthGuard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.AccountController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Account/changePassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordDto",
+        "Type": "HealthGuard.GradProject.DTO.PasswordUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.AccountController",
     "Method": "CheckEmailExists",
     "RelativePath": "api/Account/emailExist",
     "HttpMethod": "GET",
@@ -119,6 +155,26 @@
   },
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.AccountController",
+    "Method": "GetAllNormalUsers",
+    "RelativePath": "api/Account/normalUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyCollection\u00601[[HealthGuard.Core.Entities.Identity.AppUser, HealthGuard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.AccountController",
     "Method": "Register",
     "RelativePath": "api/Account/register",
     "HttpMethod": "POST",
@@ -144,6 +200,84 @@
     ]
   },
   {
+    "ContainingType": "HealthGuard.GradProject.Controllers.AccountController",
+    "Method": "UpdateUserAccount",
+    "RelativePath": "api/Account/updateAccount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userUpdateDto",
+        "Type": "HealthGuard.GradProject.DTO.UserUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.GradProject.DTO.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.AccountController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Account/users/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.AccountController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Account/users/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.Core.Entities.Identity.AppUser",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.BasketController",
+    "Method": "GetBasket",
+    "RelativePath": "api/Basket",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HealthGuard.GradProject.Controllers.BasketController",
     "Method": "UpdateBasket",
     "RelativePath": "api/Basket",
@@ -157,65 +291,23 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "HealthGuard.Core.Entities.CustomerBasket",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.BasketController",
     "Method": "DeleteBasket",
-    "RelativePath": "api/Basket",
+    "RelativePath": "api/Basket/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "HealthGuard.GradProject.Controllers.BasketController",
-    "Method": "GetBasket",
-    "RelativePath": "api/Basket/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
+        "Type": "",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "HealthGuard.Core.Entities.CustomerBasket",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.BasketController",
@@ -226,94 +318,49 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "basketId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "itemDto",
-        "Type": "HealthGuard.GradProject.DTO.BasketItemDto",
+        "Name": "productIdDto",
+        "Type": "HealthGuard.GradProject.DTO.ProductIdDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "HealthGuard.GradProject.DTO.CustomerBasketDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.BasketController",
     "Method": "DeleteFromBasket",
-    "RelativePath": "api/Basket/delete-from-basket",
+    "RelativePath": "api/Basket/delete-from-basket/{itemId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "basketId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
         "Name": "itemId",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "HealthGuard.GradProject.DTO.CustomerBasketDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.BasketController",
     "Method": "UpdateBasketItemQuantity",
-    "RelativePath": "api/Basket/update-basket-item-quantity",
+    "RelativePath": "api/Basket/update-basket-item-quantity/{itemId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "basketId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
         "Name": "itemId",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "newQuantity",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Type": "HealthGuard.GradProject.DTO.QuantityDto",
+        "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "HealthGuard.GradProject.DTO.CustomerBasketDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.BuggyController",
@@ -372,13 +419,339 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HealthGuard.GradProject.Controllers.OrdersController",
-    "Method": "CreateOrder",
-    "RelativePath": "api/Orders",
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "GetNurse",
+    "RelativePath": "api/Nurse/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.GradProject.DTO.NurseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "DeleteNurse",
+    "RelativePath": "api/Nurse/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "GetAllAppointments",
+    "RelativePath": "api/Nurse/all-appointments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HealthGuard.GradProject.DTO.AllAppointmentDto, HealthGuard.GradProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "GetNurses",
+    "RelativePath": "api/Nurse/All-Nurses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HealthGuard.Core.Entities.Identity.AppNurse, HealthGuard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "GetAppointmentById",
+    "RelativePath": "api/Nurse/appointments/{appointmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.GradProject.DTO.AllAppointmentDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "BookAppointment",
+    "RelativePath": "api/Nurse/book-appointment/{appNurseId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "appNurseId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "appointmentDto",
+        "Type": "HealthGuard.GradProject.DTO.AppointmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "GetBookingInfo",
+    "RelativePath": "api/Nurse/booking-info/{appointmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "CancelAppointment",
+    "RelativePath": "api/Nurse/cancel-appointment/{appointmentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "ClearAppointments",
+    "RelativePath": "api/Nurse/clear-appointments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "CreateNurse",
+    "RelativePath": "api/Nurse/create-nurse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createNurseDto",
+        "Type": "HealthGuard.GradProject.DTO.CreateNurseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.GradProject.DTO.NurseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "CreateNurse",
+    "RelativePath": "api/Nurse/FirstCreate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nurse",
+        "Type": "HealthGuard.Core.Entities.Identity.AppNurse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.Core.Entities.Identity.AppNurse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "UpdateNurse",
+    "RelativePath": "api/Nurse/FirstUpdate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nurse",
+        "Type": "HealthGuard.Core.Entities.Identity.AppNurse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "GetMyAppointments",
+    "RelativePath": "api/Nurse/my-appointments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HealthGuard.GradProject.DTO.AppointmentNurseDto, HealthGuard.GradProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "CheckEmailExists",
+    "RelativePath": "api/Nurse/NurseemailExist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "UpdateNurse",
+    "RelativePath": "api/Nurse/Nurses/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "nurseDto",
+        "Type": "HealthGuard.GradProject.DTO.NurseUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.NurseController",
+    "Method": "TestEmail",
+    "RelativePath": "api/Nurse/test-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.OrdersController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Orders/{basketId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
       {
         "Name": "orderDto",
         "Type": "HealthGuard.GradProject.DTO.OrderDto",
@@ -387,29 +760,102 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "HealthGuard.Core.Entities.Order.Order",
+        "Type": "HealthGuard.GradProject.DTO.OrderToReturnDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
-      },
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.OrdersController",
+    "Method": "GetOrderById",
+    "RelativePath": "api/Orders/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "HealthGuard.GradProject.Errors.ApiResponse",
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.GradProject.DTO.OrderToReturnDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
-        "StatusCode": 400
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.OrdersController",
+    "Method": "DeleteOrderById",
+    "RelativePath": "api/Orders/{orderId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.OrdersController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Orders/all-orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[HealthGuard.GradProject.DTO.OrderToReturnDto, HealthGuard.GradProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.OrdersController",
+    "Method": "GetDeliveryMethods",
+    "RelativePath": "api/Orders/DeliveryMethods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[HealthGuard.Core.Entities.Order.DeliveryMethod, HealthGuard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
     ]
   },
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.OrdersController",
     "Method": "GetOrdersForUser",
-    "RelativePath": "api/Orders",
+    "RelativePath": "api/Orders/user-orders",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -438,13 +884,13 @@
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.OrdersController",
     "Method": "GetOrderByIdForUser",
-    "RelativePath": "api/Orders/{OrderId}",
+    "RelativePath": "api/Orders/user-orders/{orderId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "OrderId",
+        "Name": "orderId",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -467,26 +913,6 @@
           "text/json"
         ],
         "StatusCode": 404
-      }
-    ]
-  },
-  {
-    "ContainingType": "HealthGuard.GradProject.Controllers.OrdersController",
-    "Method": "GetDeliveyMethods",
-    "RelativePath": "api/Orders/DeliveryMethods",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[HealthGuard.Core.Entities.Order.DeliveryMethod, HealthGuard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
       }
     ]
   },
@@ -544,16 +970,6 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "PageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageIndex",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
         "Name": "Sort",
         "Type": "System.String",
         "IsRequired": false
@@ -572,6 +988,32 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[HealthGuard.Core.Entities.Product, HealthGuard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.ProductsController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productCreateDto",
+        "Type": "HealthGuard.GradProject.DTO.ProductCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.GradProject.DTO.ProductToReturnDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -618,15 +1060,140 @@
   },
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.ProductsController",
-    "Method": "GetCategory",
-    "RelativePath": "api/Products/categories",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "productDto",
+        "Type": "HealthGuard.GradProject.DTO.ProductToReturnDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.GradProject.DTO.ProductToReturnDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "HealthGuard.GradProject.Errors.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "HealthGuard.GradProject.Errors.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.ProductsController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Products/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.GradProject.Errors.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "HealthGuard.GradProject.Errors.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.ProductsController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Products/add-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDto",
+        "Type": "HealthGuard.GradProject.DTO.ProductToReturnDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthGuard.GradProject.DTO.ProductToReturnDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "HealthGuard.GradProject.Errors.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.ProductsController",
+    "Method": "GetProductsByCategory",
+    "RelativePath": "api/Products/byCategory/{categoryId}/products",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IReadOnlyCollection\u00601[[HealthGuard.Core.Entities.ProductCategory, HealthGuard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IReadOnlyCollection\u00601[[HealthGuard.GradProject.DTO.ProductToReturnDto, HealthGuard.GradProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -635,6 +1202,121 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.ProductsController",
+    "Method": "GetCategory",
+    "RelativePath": "api/Products/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyCollection\u00601[[HealthGuard.GradProject.DTO.ProductCategoryDto, HealthGuard.GradProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.WishListController",
+    "Method": "GetWishList",
+    "RelativePath": "api/WishList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.WishListController",
+    "Method": "UpdateWishList",
+    "RelativePath": "api/WishList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Wishlist",
+        "Type": "HealthGuard.GradProject.DTO.CustomerWishlistDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.WishListController",
+    "Method": "DeleteWishList",
+    "RelativePath": "api/WishList/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.WishListController",
+    "Method": "AddToWishlist",
+    "RelativePath": "api/WishList/add-to-wishlist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productIdDto",
+        "Type": "HealthGuard.GradProject.DTO.ProductIdDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.WishListController",
+    "Method": "DeleteFromWishList",
+    "RelativePath": "api/WishList/delete-from-wishlsit/{itemId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthGuard.GradProject.Controllers.WishListController",
+    "Method": "UpdateWishlistItemQuantity",
+    "RelativePath": "api/WishList/update-WishList-item-quantity/{itemId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newQuantity",
+        "Type": "HealthGuard.GradProject.DTO.QuantityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "HealthGuard.GradProject.Controllers.WeatherForecastController",

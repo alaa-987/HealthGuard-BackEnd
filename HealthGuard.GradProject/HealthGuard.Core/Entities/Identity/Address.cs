@@ -16,7 +16,6 @@ namespace HealthGuard.Core.Entities.Identity
         public string City { get; set; }
         public string Country { get; set; }
         public string AppUserId { get; set; }
-        //[JsonIgnore]
-        //public AppUser User { get; set; }
+       
     }
 }

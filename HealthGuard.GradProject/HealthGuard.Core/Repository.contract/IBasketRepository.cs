@@ -11,7 +11,10 @@ namespace HealthGuard.Core.Repository.contract
     {
         Task<CustomerBasket> GetBasketAsync(string basketId);
         Task<CustomerBasket> UpdateBasketAsync(CustomerBasket basket);
+        Task<CustomerBasket> CreateOrUpdateBasketAsync(CustomerBasket basket);
+
         Task<bool> DeleteBasketAsync(string basketId);
         Task<bool> UpdateBasketItemQuantityAsync(string basketId, int itemId, int newQuantity);
+        Task<bool> RemoveBasketItemAsync(string basketId, int itemId);
     }
 }

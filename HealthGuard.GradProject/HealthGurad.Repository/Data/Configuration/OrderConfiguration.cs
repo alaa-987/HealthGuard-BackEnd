@@ -22,7 +22,7 @@ namespace HealthGurad.Repository.Data.Configuration
                    .HasColumnType("decimal(18,2)");
             builder.HasOne(o => o.DeliveryMethod)
                    .WithMany()
-                   .OnDelete(DeleteBehavior.SetNull);
+                   .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

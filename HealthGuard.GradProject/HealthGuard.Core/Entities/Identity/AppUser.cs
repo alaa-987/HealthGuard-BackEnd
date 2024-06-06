@@ -10,6 +10,7 @@ namespace HealthGuard.Core.Entities.Identity
     public class AppUser : IdentityUser
     {
         public string DisplayName { get; set; }
+        public string? IsAdmin { get; set; } = "false";
         public Address Address { get; set; }
     }
 }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HealthGurad.Repository
-build_property.ProjectDir = C:\Users\HP\source\repos\GradProjectApi\HealthGuard.GradProject\HealthGurad.Repository\
+build_property.ProjectDir = C:\Users\HP\source\repos\GradProjectApi\HealthGuard-BackEnd\HealthGuard.GradProject\HealthGurad.Repository\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

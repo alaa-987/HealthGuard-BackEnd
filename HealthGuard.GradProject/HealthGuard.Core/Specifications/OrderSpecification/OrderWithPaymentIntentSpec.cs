@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HealthGuard.Core.Specifications.OrderSpecification
 {
-    public class OrderWithPaymentIntentSpec: BaseSpecifications<Order>
+    public class OrderWithPaymentIntentSpec : BaseSpecifications<Order>
     {
         public OrderWithPaymentIntentSpec(string PaymentIntentId) : base(o => o.PaymentIntentId == PaymentIntentId)
         {
